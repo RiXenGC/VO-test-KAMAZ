@@ -1,1 +1,8 @@
+# folders
 images/
+one_minute/
+calib/GNSS/
+
+
+# file types
+*.mp4

@@ -1,0 +1,25 @@
+%YAML:1.0
+# UNCALIBRATED TEMPLATE: replace all zero camera parameters with measured values.
+# Input images are 1280x720 BGR PNG files.
+
+Camera.fx: 0.0
+Camera.fy: 0.0
+Camera.cx: 0.0
+Camera.cy: 0.0
+
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+Camera.k3: 0.0
+
+Camera.width: 1280
+Camera.height: 720
+Camera.fps: 10.0
+Camera.RGB: 0
+
+ORBextractor.nFeatures: 2000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
