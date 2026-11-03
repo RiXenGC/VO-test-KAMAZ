@@ -3,6 +3,9 @@ images/
 one_minute/
 calib/GNSS/
 
+# Special files
+scripts/export_gnss.py
+results/
 
 # file types
 *.mp4

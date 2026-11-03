@@ -1,11 +1,13 @@
 %YAML:1.0
-# UNCALIBRATED TEMPLATE: replace all zero camera parameters with measured values.
+# TEMPORARY self-calibration estimate from 12 ORB frame pairs; not a board calibration.
+# Assumes a centered principal point and zero distortion. Replace all camera parameters
+# with measured values before evaluating metric accuracy.
 # Input images are 1280x720 BGR PNG files.
 
-Camera.fx: 0.0
-Camera.fy: 0.0
-Camera.cx: 0.0
-Camera.cy: 0.0
+Camera.fx: 525.0
+Camera.fy: 315.0
+Camera.cx: 640.0
+Camera.cy: 360.0
 
 Camera.k1: 0.0
 Camera.k2: 0.0
