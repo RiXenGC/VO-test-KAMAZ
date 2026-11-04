@@ -2,7 +2,6 @@
 # TEMPORARY self-calibration estimate from 12 ORB frame pairs; not a board calibration.
 # Assumes a centered principal point and zero distortion. Replace all camera parameters
 # with measured values before evaluating metric accuracy.
-# Input images are 1280x720 BGR PNG files.
 
 Camera.fx: 525.0
 Camera.fy: 315.0
